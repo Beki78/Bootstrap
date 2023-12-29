@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Bootstrap Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md custom-navbar">
+      <a class="navbar-brand" href="#">Food, LLC</a>
+      <!-- Hamburger Menu Icon -->
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Items -->
+      <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto d-md-none">
+          <!-- Use mx-auto to center the nav links -->
+          <li class="nav-item">
+            <a class="nav-link n1" href="#">Chicken</a>
+          </li>
+          <li class="nav-item  n2">
+            <a class="nav-link" href="#">Beef</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sushi</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Heading -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Our Menu</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single tall section -->
+    <div class="container-fluid bg-light mt-4">
+      <div class="row">
+        <div class="col-12">
+          <p class="p1">Scroll down <br />Thank You very much</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
